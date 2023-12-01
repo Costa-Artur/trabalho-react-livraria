@@ -2,6 +2,7 @@ import { Component } from "react";
 import './livro-content.css';
 import Livro from "../elemento-livro";
 
+//SEMPRE RODAR "json-server --watch db.json", se nao tiver o json-server rodar "npm install -g json-server"
 class LivroContent extends Component {
     state = {
         livros: []
@@ -21,6 +22,7 @@ class LivroContent extends Component {
 
     render() {
         const {livros} = this.state
+
 
         return(
             <div className="livros-content__container">
