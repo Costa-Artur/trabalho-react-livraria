@@ -1,0 +1,14 @@
+.livro__container {
+    margin: 0 2rem;
+}
+
+.livros-acoes__delete {
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #DC3545;
+    cursor: pointer;
+}

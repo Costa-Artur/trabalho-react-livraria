@@ -1,0 +1,46 @@
+.livros-content__container {
+    margin: 2rem;
+    border: solid 0.5px #b8b8b8;
+}
+
+.livros-header__container {
+    display: flex;
+    background-color: #dedede;
+    padding-left: 2rem;
+}
+
+.livros-table__container {
+    margin: 2rem;
+}
+
+.livros-table__head {
+    background-color: #414141;
+    color: #FFFFFF;
+    border-collapse: collapse;
+}
+
+.livros-table-head__item {
+    padding: 0.8rem 0;
+}
+
+.livros-content__table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.livros-table__title {
+    width: 20%;
+}
+
+.livros-table__editora {
+    width: 15%;
+}
+
+
+.livros-table__autores {
+    width: 20%;
+}
+
+.livros-table__acoes {
+    width: 8%;
+}

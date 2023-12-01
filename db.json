@@ -1,0 +1,20 @@
+{
+  "livros": [
+    {
+      "id": 3,
+      "titulo": "Core Java for the Impatient",
+      "resumo": "resumo livro",
+      "editora": "Addison Wesley",
+      "autores": [
+        {
+          "id": 1,
+          "nome": "Autor 1"
+        },
+        {
+          "id": 2,
+          "nome": "Autor 2"
+        }
+      ]
+    }
+  ]
+}
