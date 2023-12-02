@@ -7,14 +7,24 @@
       "editora": "Addison Wesley",
       "autores": [
         {
-          "id": 1,
           "nome": "Autor 1"
         },
         {
-          "id": 2,
           "nome": "Autor 2"
         }
       ]
+    },
+    {
+      "titulo": "livro",
+      "resumo": "livro",
+      "editora": "livro",
+      "autores": [
+        {
+          "nome": "livro"
+        }
+      ],
+      "id": 4
     }
-  ]
+  ],
+  "autores": []
 }

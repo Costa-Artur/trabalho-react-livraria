@@ -1,6 +1,7 @@
 import { Component } from "react";
 import './livro-content.css';
 import Livro from "../elemento-livro";
+import CriarLivroForm from "../criar-livro-form";
 
 //SEMPRE RODAR "json-server --watch db.json", se nao tiver o json-server rodar "npm install -g json-server"
 class LivroContent extends Component {
@@ -18,7 +19,6 @@ class LivroContent extends Component {
         const novaListaLivros = this.state.livros.filter(livro => livro.id !== livroId);
         this.setState({ livros: novaListaLivros });
     };
-
 
     render() {
         const {livros} = this.state
@@ -42,7 +42,6 @@ class LivroContent extends Component {
                             </tr>
                         </thead>
                         <tbody>
-                            
                             {livros.map(livro => {
                                 return(
                                         <Livro 
@@ -58,6 +57,10 @@ class LivroContent extends Component {
                             })}
                         </tbody>
                     </table>
+                </div>
+
+                <div className="livros-content__create">
+                    <CriarLivroForm/>
                 </div>
             </div>
         )

@@ -44,3 +44,7 @@
 .livros-table__acoes {
     width: 8%;
 }
+
+.livros-content__create {
+    margin: 2rem;
+}
