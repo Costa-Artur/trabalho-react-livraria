@@ -30,7 +30,7 @@ function Livro (props) {
                 <ul>
                     {props.autores.map(autor => {
                         return (
-                            <li>
+                            <li key={autor.nome}>
                                 <p>{autor.nome}</p>
                             </li>
                         )
